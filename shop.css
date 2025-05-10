@@ -1,0 +1,257 @@
+/* 1 часть */
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+  
+    background-color: rgba(226, 226, 226, 0.884);
+    
+}
+nav.my{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav ul{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 45px;
+list-style-type: none;
+background: linear-gradient(to right,rgb(198, 202, 224),rgb(12, 80, 145))  ;
+height:120px ;
+width: 1350px;
+}
+nav h1{
+    font-size: 40px;
+}
+nav img{
+    width:100px; 
+    height:100px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+nav a.my:hover{
+    color: rgb(104, 125, 153);
+}
+nav input {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 80px;
+    width: 800px;
+    
+}
+nav{
+    border-bottom: #000; 
+}
+footer{
+    text-align: center;
+    padding:20px;
+    background: linear-gradient(to right,rgb(198, 202, 224),rgb(12, 80, 145))  ;
+    bottom:0;
+    width: 100%;
+    color: rgb(1, 1, 2);
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.2em;
+}     
+.footer-links a {
+    text-decoration: none;
+    color:rgb(0, 0, 0) ;
+    margin: 10px 0px;
+}
+.footer-links a.my:hover{
+    color: rgb(175, 177, 163);
+}
+
+.footer-links div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.footer-links h3{
+    margin-bottom: 20px;
+    color: black;
+}
+.products-item img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+div.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 50px;
+    height: 288px;
+    width: 157px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+div.product-list img{
+    width: 157px;
+    height: 195px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+s{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.747);
+}
+div.product-list button{
+    height: 30px;
+    width: 157px;
+    border-radius: 10px;
+    background-color: rgb(148, 153, 180);
+    border: 0px;
+}
+/* 2 часть */
+div.product-list button:hover{
+    background-color: rgb(180, 184, 189);
+    transition: 0.2s ease;
+}
+div.buy2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4% 0;
+    gap: 20px;
+}
+div input{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+}
+div.buy2 button{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+     box-shadow: 0 8px 20px rgb(165, 153, 153);
+}
+div.buy2 button{
+    background-color: rgba(198, 200, 212, 0.521);
+}
+div.buy2 button:hover{
+    background-color:  rgb(148, 153, 180);
+}
+ /* 3 часть */
+.thank-you-page {
+    text-align: center;
+    background-color:rgba(226, 226, 226, 0.884);
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.thank-you-page h1 {
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 60px;
+}
+
+.thank-you-page p {
+    margin-bottom: 20px;
+    color: #555555;
+    font-size: 30px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+}
+/* 4 часть */
+.about-section {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.about-container strong {
+  color: #000;
+}
+/* 5 часть */
+
+.contact-section {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contact-container h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-container p.sigma {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #444;
+}
+p.sigma a{
+    color: #333;
+    text-decoration: none;
+}
+p.sigma a:hover{
+    color: #8f8585;
+}
